@@ -14,7 +14,7 @@ export const useAppStore = defineStore('app', () => {
     layout_side_width : 256,
     layout_side_collapsed_width : 80,
     layout_side_item_height : 48,
-    show_watermark: true,
+    show_watermark: false,
     side_mode : 'normal'
   })
 
@@ -67,15 +67,15 @@ export const useAppStore = defineStore('app', () => {
   }
 
   const toggleConfigSideCollapsedWidth = (e) => {
-      config.layout_side_collapsed_width = e;
+    config.layout_side_collapsed_width = e;
   }
 
   const toggleConfigSideItemHeight = (e) => {
-      config.layout_side_item_height = e;
+    config.layout_side_item_height = e;
   }
 
   const toggleConfigWatermark = (e) => {
-        config.show_watermark = e;
+    config.show_watermark = e;
   }
 
   const toggleSideModel= (e) =>{

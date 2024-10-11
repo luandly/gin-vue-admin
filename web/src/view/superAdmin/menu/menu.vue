@@ -7,7 +7,7 @@
           icon="plus"
           @click="addMenu(0)"
         >
-          新增根菜单
+          新增根菜单-右侧展示区
         </el-button>
       </div>
 
